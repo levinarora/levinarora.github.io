@@ -1,0 +1,176 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  background-image:url('http://wallpapers-best.com/uploads/posts/2015-10/1_summer.jpg') ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center;
+}
+
+
+ul.menu_list{
+  list-style:none;
+  position: fixed;
+}
+ul.menu_list li {
+  display:inline-block;
+  background-color: transparent;
+}
+ul.menu_list li a{
+  color:white;
+  padding: 10px 15px;
+  font-size: 30px
+}
+ul.menu_list li a:hover{
+  color:magenta;
+  border:1px solid white;
+}
+
+
+.parallax{
+  background-image: url('lion.gif');
+  min-height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.display {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width:700px;
+}
+img.display_pic{
+  display: block;
+  height:900px;
+  width:700px;
+}
+
+
+#intro p{
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro_parallax{
+  background-image: url('intro2.jpg');
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+img.hob_img{
+  display:block;
+  float:left;
+}
+#hobbies p{
+  display: block;
+  float: left;
+  font-size: 30px;
+  width: 30%;
+}
+.hobbies_parallax{
+  background-image: url('hobbies2.jpg');
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#qual p.p1{
+  display: block;
+  float: left;
+  font-size: 30px;
+  width: 40%;
+}
+img.qual_img{
+  display:block;
+  float:left;
+}
+.qual_parallax{
+  background-image:url('qual3.jpg');
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.exp_parallax{
+  background-image:url('experience2.jpg');
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img.exp_img{
+  display:block;
+  float:left;
+}
+#experience p.p1{
+  display: block;
+  float: left;
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+}
+#experience p.p2{
+  display: block;
+  float: left;
+  font-size: 30px;
+  width: 25%;
+  text-align: center;
+}
+#experience{
+  min-height: 1700px;
+}
+
+
+#icons{
+  min-height: 820px;
+}
+
+
+#comment{
+    min-height: 500px;
+}
+
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width:auto;
+  height:auto;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.5;
+  transform: scale(2);
+}
+.fa-facebook{
+  background: white;
+  color: darkblue;
+}
+.fa-instagram{
+  background: white;
+  color: darkred;
+}
