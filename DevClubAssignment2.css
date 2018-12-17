@@ -29,6 +29,7 @@ ul.menu_list li a{
 ul.menu_list li a:hover{
   color:magenta;
   border:1px solid white;
+  transform: scale(1.5);
 }
 
 
