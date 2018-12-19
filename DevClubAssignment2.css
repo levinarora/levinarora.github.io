@@ -11,14 +11,14 @@ body{
   background-size:cover;
   background-position: center;
   width:100vw;
-  height:100%
+  height:100%;
 }
 
 
 ul.menu_list{
   list-style:none;
   position: fixed;
-  width:100vw
+  width:100vw;
 }
 ul.menu_list li {
   display:inline-block;
@@ -42,7 +42,7 @@ ul.menu_list li a:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width:100vw
+  width:100vw;
 }
 
 
@@ -70,7 +70,7 @@ img.display_pic{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width:100%
+  width:100%;
 }
 
 
