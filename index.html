@@ -106,6 +106,7 @@
 <div id='comment'style='text-align:center; font-size:35px;'>
   <form id='form'>
     Comments/Suggestions/Questions Here <br><textarea  rows ="5" cols ="25" name="comment"></textarea><br>
+    your name <br><input type="text" name='name' size="20px" height="0px"><br>
   </form>
   <button  onclick='feed()'>CLICK TO POST"</button><br>
   <div><h1 style='font-size:30px;text-align:center;'>Feedback</h1><p id='feedback' style='font-size:30px;text-align:center;'></p></div>
@@ -115,7 +116,8 @@
 function feed(){
   var x=document.getElementById('form');
   var y=x.elements['comment'].value;
-  document.getElementById('feedback').innerHTML+=y;
+  var z=x.elements['name'].value;
+  document.getElementById('feedback').innerHTML=z+': '+y;
 }
 </script>
 
