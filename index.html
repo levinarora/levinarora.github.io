@@ -117,7 +117,7 @@ function feed(){
   var x=document.getElementById('form');
   var y=x.elements['comment'].value;
   var z=x.elements['name'].value;
-  document.getElementById('feedback').innerHTML=z+': '+y;
+ document.getElementById('feedback').innerHTML+=z+': '+y+'<br>';
 }
 </script>
 
