@@ -104,11 +104,20 @@
 </div>
 
 <div id='comment'style='text-align:center; font-size:35px;'>
-  <form action="https://levinarora.github.io" method="post">
-    Comments/Suggestions/Questions Here <br><textarea  rows ="10" cols ="30" name="comment"></textarea><br>
-    <input type = "submit" value = "CLICK TO POST"><br>
+  <form id='form'>
+    Comments/Suggestions/Questions Here <br><textarea  rows ="5" cols ="25" name="comment"></textarea><br>
   </form>
+  <button  onclick='feed()'>CLICK TO POST"</button><br>
+  <div><h1 style='font-size:30px;text-align:center;'>Feedback</h1><p id='feedback' style='font-size:30px;text-align:center;'></p></div>
 </div>
+
+<script>
+function feed(){
+  var x=document.getElementById('form');
+  var y=x.elements['comment'].value;
+  document.getElementById('feedback').innerHTML+=y;
+}
+</script>
 
 <div class="parallax" ></div>
 
